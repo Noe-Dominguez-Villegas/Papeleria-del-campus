@@ -120,7 +120,7 @@ void mostrar_reporte(struct producto inventario[], int n) {
     printf("-------------------------------------------------------------\n");
     for (int i = 0; i < n; i++) {
         printf("%d\t%s\t\t%d\t%d", inventario[i].codigo, inventario[i].nombre, 
-               inventario[i].existencia, inventario[i].vendidos);
+            inventario[i].existencia, inventario[i].vendidos);
         
         if (inventario[i].existencia <= 2) {
             printf("\t\tEXISTENCIA BAJA");
